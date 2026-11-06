@@ -1,0 +1,10 @@
+{
+  "name": "selected-work-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interview portfolio \u2014 AI enablement, scalable video production, film and photography",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
+    "check": "node --check dist/app.js"
+  }
+}
